@@ -77,7 +77,7 @@ def send_and_log(ser: Serial, cmd: str, delay: float, log, num: int):
     write_log(log, f"\n--- [{num}] {visible} ---")
     print(f"[{num}] {visible}")
 
-    cmd += TX_NEWLINE
+    if not cmd.endswith(TX_NEWLINE): cmd += TX_NEWLINE
     cmd_b = cmd.encode("ascii", errors="ignore")
     
     # Flush any stale bytes before sending a command.
