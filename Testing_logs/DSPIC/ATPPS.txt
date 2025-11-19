@@ -1,0 +1,310 @@
+=== PP FOCUSED TEST ===
+Started: 2025-11-18 10:36:13.488007
+
+
+=== Testing PP 01 ===
+
+> STRSTNVM
+O/P   : STRSTNVM<CR>OK<CR><CR><CR>ELM327·v1.4b<CR><CR>>
+
+> ATPP 01 SV 01
+O/P   : ATPP·01·SV·01<CR>OK<CR><CR>>
+
+> ATPP 01 ON
+O/P   : ATPP·01·ON<CR>OK<CR><CR>>
+
+--- Commands with PP 01 ON ---
+
+> STRSTNVM
+O/P   : STRSTNVM<CR>OK<CR><CR><CR>ELM327·v1.4b<CR><CR>>
+
+> ATH1
+O/P   : ATH1<CR>OK<CR><CR>>
+
+> ATH0
+O/P   : ATH0<CR>OK<CR><CR>>
+
+> ATSH 7E0
+O/P   : ATSH·7E0<CR>OK<CR><CR>>
+
+> ATRTR
+O/P   : ATRTR<CR>?<CR><CR>>
+
+> ATD 1
+O/P   : ATD·1<CR>OK<CR><CR>>
+
+> ATD 0
+O/P   : ATD·0<CR>OK<CR><CR>>
+
+> ATPP 01 OFF
+O/P   : ATPP·01·OFF<CR>OK<CR><CR>>
+
+--- Commands with PP 01 OFF ---
+
+> STRSTNVM
+O/P   : STRSTNVM<CR>OK<CR><CR><CR>ELM327·v1.4b<CR><CR>>
+
+> ATH1
+O/P   : ATH1<CR>OK<CR><CR>>
+
+> ATH0
+O/P   : ATH0<CR>OK<CR><CR>>
+
+> ATSH 7E0
+O/P   : ATSH·7E0<CR>OK<CR><CR>>
+
+> ATRTR
+O/P   : ATRTR<CR>?<CR><CR>>
+
+> ATD 1
+O/P   : ATD·1<CR>OK<CR><CR>>
+
+> ATD 0
+O/P   : ATD·0<CR>OK<CR><CR>>
+----------------------------------------
+
+=== Testing PP 02 ===
+
+> STRSTNVM
+O/P   : STRSTNVM<CR>OK<CR><CR><CR>ELM327·v1.4b<CR><CR>>
+
+> ATPP 02 SV 01
+O/P   : ATPP·02·SV·01<CR>OK<CR><CR>>
+
+> ATPP 02 ON
+O/P   : ATPP·02·ON<CR>OK<CR><CR>>
+
+--- Commands with PP 02 ON ---
+
+> ATAL
+O/P   : ATAL<CR>OK<CR><CR>>
+
+> ATNL
+O/P   : ATNL<CR>OK<CR><CR>>
+
+> ATPP 02 OFF
+O/P   : ATPP·02·OFF<CR>OK<CR><CR>>
+
+--- Commands with PP 02 OFF ---
+
+> ATAL
+O/P   : ATAL<CR>OK<CR><CR>>
+
+> ATNL
+O/P   : ATNL<CR>OK<CR><CR>>
+----------------------------------------
+
+=== Testing PP 04 ===
+
+> STRSTNVM
+O/P   : STRSTNVM<CR>OK<CR><CR><CR>ELM327·v1.4b<CR><CR>>
+
+> ATPP 04 SV 01
+O/P   : ATPP·04·SV·01<CR>OK<CR><CR>>
+
+> ATPP 04 ON
+O/P   : ATPP·04·ON<CR>OK<CR><CR>>
+
+--- Commands with PP 04 ON ---
+
+> ATAT 0
+O/P   : ATAT·0<CR>OK<CR><CR>>
+
+> ATAT 1
+O/P   : ATAT·1<CR>OK<CR><CR>>
+
+> ATAT 2
+O/P   : ATAT·2<CR>OK<CR><CR>>
+
+> ATPP 04 OFF
+O/P   : ATPP·04·OFF<CR>OK<CR><CR>>
+
+--- Commands with PP 04 OFF ---
+
+> ATAT 0
+O/P   : ATAT·0<CR>OK<CR><CR>>
+
+> ATAT 1
+O/P   : ATAT·1<CR>OK<CR><CR>>
+
+> ATAT 2
+O/P   : ATAT·2<CR>OK<CR><CR>>
+----------------------------------------
+
+=== Testing PP 09 ===
+
+> STRSTNVM
+O/P   : STRSTNVM<CR>OK<CR><CR><CR>ELM327·v1.4b<CR><CR>>
+
+> ATPP 09 SV 01
+O/P   : ATPP·09·SV·01<CR>OK<CR><CR>>
+
+> ATPP 09 ON
+O/P   : ATPP·09·ON<CR>OK<CR><CR>>
+
+--- Commands with PP 09 ON ---
+
+> ATE 1
+O/P   : ATE·1<CR>OK<CR><CR>>
+
+> ATE 0
+O/P   : ATE·0<CR>OK<CR><CR>>
+
+> ATPP 09 OFF
+O/P   : OK<CR><CR>>
+
+--- Commands with PP 09 OFF ---
+
+> ATE 1
+O/P   : OK<CR><CR>>
+
+> ATE 0
+O/P   : ATE·0<CR>OK<CR><CR>>
+----------------------------------------
+
+=== Testing PP 24 ===
+
+> STRSTNVM
+O/P   : OK<CR><CR><CR>ELM327·v1.4b<CR><CR>>
+
+> ATPP 24 SV 01
+O/P   : ATPP·24·SV·01<CR>OK<CR><CR>>
+
+> ATPP 24 ON
+O/P   : ATPP·24·ON<CR>OK<CR><CR>>
+
+--- Commands with PP 24 ON ---
+
+> ATCAF 1
+O/P   : ATCAF·1<CR>OK<CR><CR>>
+
+> ATCAF 0
+O/P   : ATCAF·0<CR>OK<CR><CR>>
+
+> ATRTR
+O/P   : ATRTR<CR>?<CR><CR>>
+
+> ATNL
+O/P   : ATNL<CR>OK<CR><CR>>
+
+> ATSH 7DF
+O/P   : ATSH·7DF<CR>OK<CR><CR>>
+
+> ATPP 24 OFF
+O/P   : ATPP·24·OFF<CR>OK<CR><CR>>
+
+--- Commands with PP 24 OFF ---
+
+> ATCAF 1
+O/P   : ATCAF·1<CR>OK<CR><CR>>
+
+> ATCAF 0
+O/P   : ATCAF·0<CR>OK<CR><CR>>
+
+> ATRTR
+O/P   : ATRTR<CR>?<CR><CR>>
+
+> ATNL
+O/P   : ATNL<CR>OK<CR><CR>>
+
+> ATSH 7DF
+O/P   : ATSH·7DF<CR>OK<CR><CR>>
+----------------------------------------
+
+=== Testing PP 25 ===
+
+> STRSTNVM
+O/P   : STRSTNVM<CR>OK<CR><CR><CR>ELM327·v1.4b<CR><CR>>
+
+> ATPP 25 SV 01
+O/P   : ATPP·25·SV·01<CR>OK<CR><CR>>
+
+> ATPP 25 ON
+O/P   : ATPP·25·ON<CR>OK<CR><CR>>
+
+--- Commands with PP 25 ON ---
+
+> ATCFC 1
+O/P   : ATCFC·1<CR>OK<CR><CR>>
+
+> ATCFC 0
+O/P   : ATCFC·0<CR>OK<CR><CR>>
+
+> ATFCSM 00
+O/P   : ATFCSM·00<CR>?<CR><CR>>
+
+> ATFCSH 7E8
+O/P   : ATFCSH·7E8<CR>OK<CR><CR>>
+
+> ATFCSD 30 00
+O/P   : ATFCSD·30·00<CR>OK<CR><CR>>
+
+> ATPP 25 OFF
+O/P   : ATPP·25·OFF<CR>OK<CR><CR>>
+
+--- Commands with PP 25 OFF ---
+
+> ATCFC 1
+O/P   : ATCFC·1<CR>OK<CR><CR>>
+
+> ATCFC 0
+O/P   : ATCFC·0<CR>OK<CR><CR>>
+
+> ATFCSM 00
+O/P   : ATFCSM·00<CR>?<CR><CR>>
+
+> ATFCSH 7E8
+O/P   : ATFCSH·7E8<CR>OK<CR><CR>>
+
+> ATFCSD 30 00
+O/P   : ATFCSD·30·00<CR>OK<CR><CR>>
+----------------------------------------
+
+=== Testing PP 29 ===
+
+> STRSTNVM
+O/P   : STRSTNVM<CR>OK<CR><CR><CR>ELM327·v1.4b<CR><CR>>
+
+> ATPP 29 SV 01
+O/P   : ATPP·29·SV·01<CR>OK<CR><CR>>
+
+> ATPP 29 ON
+O/P   : ATPP·29·ON<CR>OK<CR><CR>>
+
+--- Commands with PP 29 ON ---
+
+> ATH1
+O/P   : ATH1<CR>OK<CR><CR>>
+
+> ATD 1
+O/P   : ATD·1<CR>OK<CR><CR>>
+
+> ATD 0
+O/P   : ATD·0<CR>OK<CR><CR>>
+
+> STRSTNVM
+O/P   : STRSTNVM<CR>OK<CR><CR><CR>ELM327·v1.4b<CR><CR>>
+
+> ATPP 29 OFF
+O/P   : ATPP·29·OFF<CR>OK<CR><CR>>
+
+--- Commands with PP 29 OFF ---
+
+> ATH1
+O/P   : ATH1<CR>OK<CR><CR>>
+
+> ATD 1
+O/P   : ATD·1<CR>OK<CR><CR>>
+
+> ATD 0
+O/P   : ATD·0<CR>OK<CR><CR>>
+
+> STRSTNVM
+O/P   : STRSTNVM<CR>OK<CR><CR><CR>ELM327·v1.4b<CR><CR>>
+----------------------------------------
+
+
+> Final ATPPS Summary
+
+> ATPPS
+O/P   : ATPPS<CR>00:FF·F··01:FF·F··02:FF·F··03:19·F<CR>04:01·F··05:FF·F··06:F1·F··07:09·F<CR>08:FF·F··09:00·F··0A:0A·F··0B:FF·F<CR>0C:23·F··0D:0D·F··0E:5A·F··0F:FF·F<CR>10:0D·F··11:00·F··12:00·F··13:F4·F<CR>14:FF·F··15:0A·F··16:FF·F··17:92·F<CR>18:00·F··19:28·F··1A:0A·F··1B:0A·F<CR>1C:FF·F··1D:FF·F··1E:FF·F··1F:FF·F<CR>20:FF·F··21:FF·F··22:FF·F··23:FF·F<CR>24:00·F··25:00·F··26:00·F··27:FF·F<CR>28:FF·F··29:FF·F··2A:04·F··2B:02·F<CR>2C:E0·F··2D:04·F··2E:80·F··2F:0A·F<CR><CR>>

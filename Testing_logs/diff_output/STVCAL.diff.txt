@@ -1,0 +1,75 @@
+=== DIFF: --- [0] STRSTNVM --- ===
+--- STN (STVCAL.txt) ---
+len=29
+STRSTNVM<CR>OK<CR><CR><CR>ELM327·v1.4b<CR><CR>>
+HEX: 53 54 52 53 54 4E 56 4D 0D 4F 4B 0D 0D 0D 45 4C 4D 33 32 37 20 76 31 2E 34 62 0D 0D 3E
+--- dsPIC (STVCAL.txt) ---
+len=31
+STRSTNVM<CR><LF>
+OK<CR><LF>
+<CR><CR>ELM327·v1.4b<CR><CR>>
+HEX: 53 54 52 53 54 4E 56 4D 0D 0A 4F 4B 0D 0A 0D 0D 45 4C 4D 33 32 37 20 76 31 2E 34 62 0D 0D 3E
+
+=== DIFF: --- [3] STVR --- ===
+--- STN (STVCAL.txt) ---
+len=16
+STVR<CR><LF>
+12.35<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 0D 0A 31 32 2E 33 35 0D 0A 0D 0A 3E
+--- dsPIC (STVCAL.txt) ---
+len=16
+STVR<CR><LF>
+12.07<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 0D 0A 31 32 2E 30 37 0D 0A 0D 0A 3E
+
+=== DIFF: --- [4] STVRX --- ===
+--- STN (STVCAL.txt) ---
+len=17
+STVRX<CR><LF>
+0x795<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 58 0D 0A 30 78 37 39 35 0D 0A 0D 0A 3E
+--- dsPIC (STVCAL.txt) ---
+len=17
+STVRX<CR><LF>
+0x76F<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 58 0D 0A 30 78 37 36 46 0D 0A 0D 0A 3E
+
+=== DIFF: --- [6] STVR --- ===
+--- STN (STVCAL.txt) ---
+len=15
+STVR<CR><LF>
+5.68<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 0D 0A 35 2E 36 38 0D 0A 0D 0A 3E
+--- dsPIC (STVCAL.txt) ---
+len=15
+STVR<CR><LF>
+5.54<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 0D 0A 35 2E 35 34 0D 0A 0D 0A 3E
+
+=== DIFF: --- [7] STVRX --- ===
+--- STN (STVCAL.txt) ---
+len=17
+STVRX<CR><LF>
+0x797<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 58 0D 0A 30 78 37 39 37 0D 0A 0D 0A 3E
+--- dsPIC (STVCAL.txt) ---
+len=17
+STVRX<CR><LF>
+0x773<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 58 0D 0A 30 78 37 37 33 0D 0A 0D 0A 3E

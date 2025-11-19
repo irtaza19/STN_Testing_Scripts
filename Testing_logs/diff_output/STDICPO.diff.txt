@@ -1,0 +1,49 @@
+=== DIFF: --- [1] STDICPO --- ===
+--- STN (STDICPO.txt) ---
+len=14
+STDICPO<CR>218<CR><CR>>
+HEX: 53 54 44 49 43 50 4F 0D 32 31 38 0D 0D 3E
+--- dsPIC (STDICPO.txt) ---
+len=12
+STDICPO<CR>1<CR><CR>>
+HEX: 53 54 44 49 43 50 4F 0D 31 0D 0D 3E
+
+=== DIFF: --- [3] STDICPO --- ===
+--- STN (STDICPO.txt) ---
+len=14
+STDICPO<CR>218<CR><CR>>
+HEX: 53 54 44 49 43 50 4F 0D 32 31 38 0D 0D 3E
+--- dsPIC (STDICPO.txt) ---
+len=12
+STDICPO<CR>1<CR><CR>>
+HEX: 53 54 44 49 43 50 4F 0D 31 0D 0D 3E
+
+=== DIFF: --- [5] STDICPO --- ===
+--- STN (STDICPO.txt) ---
+len=14
+STDICPO<CR>218<CR><CR>>
+HEX: 53 54 44 49 43 50 4F 0D 32 31 38 0D 0D 3E
+--- dsPIC (STDICPO.txt) ---
+len=12
+STDICPO<CR>1<CR><CR>>
+HEX: 53 54 44 49 43 50 4F 0D 31 0D 0D 3E
+
+=== DIFF: --- [7] STDICPO --- ===
+--- STN (STDICPO.txt) ---
+len=14
+STDICPO<CR>218<CR><CR>>
+HEX: 53 54 44 49 43 50 4F 0D 32 31 38 0D 0D 3E
+--- dsPIC (STDICPO.txt) ---
+len=12
+STDICPO<CR>1<CR><CR>>
+HEX: 53 54 44 49 43 50 4F 0D 31 0D 0D 3E
+
+=== DIFF: --- [9] STDICPO --- ===
+--- STN (STDICPO.txt) ---
+len=14
+STDICPO<CR>218<CR><CR>>
+HEX: 53 54 44 49 43 50 4F 0D 32 31 38 0D 0D 3E
+--- dsPIC (STDICPO.txt) ---
+len=12
+STDICPO<CR>1<CR><CR>>
+HEX: 53 54 44 49 43 50 4F 0D 31 0D 0D 3E

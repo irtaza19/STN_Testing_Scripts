@@ -1,0 +1,63 @@
+=== DIFF: --- [3] STVR --- ===
+--- STN (STVR.txt) ---
+len=16
+STVR<CR><LF>
+12.36<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 0D 0A 31 32 2E 33 36 0D 0A 0D 0A 3E
+--- dsPIC (STVR.txt) ---
+len=16
+STVR<CR><LF>
+12.07<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 0D 0A 31 32 2E 30 37 0D 0A 0D 0A 3E
+
+=== DIFF: --- [4] STVRX --- ===
+--- STN (STVR.txt) ---
+len=17
+STVRX<CR><LF>
+0x797<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 58 0D 0A 30 78 37 39 37 0D 0A 0D 0A 3E
+--- dsPIC (STVR.txt) ---
+len=17
+STVRX<CR><LF>
+0x76F<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 58 0D 0A 30 78 37 36 46 0D 0A 0D 0A 3E
+
+=== DIFF: --- [6] STVR --- ===
+--- STN (STVR.txt) ---
+len=15
+STVR<CR><LF>
+5.67<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 0D 0A 35 2E 36 37 0D 0A 0D 0A 3E
+--- dsPIC (STVR.txt) ---
+len=15
+STVR<CR><LF>
+5.53<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 0D 0A 35 2E 35 33 0D 0A 0D 0A 3E
+
+=== DIFF: --- [7] STVRX --- ===
+--- STN (STVR.txt) ---
+len=17
+STVRX<CR><LF>
+0x796<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 58 0D 0A 30 78 37 39 36 0D 0A 0D 0A 3E
+--- dsPIC (STVR.txt) ---
+len=17
+STVRX<CR><LF>
+0x773<CR><LF>
+<CR><LF>
+>
+HEX: 53 54 56 52 58 0D 0A 30 78 37 37 33 0D 0A 0D 0A 3E
