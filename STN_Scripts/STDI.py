@@ -15,9 +15,9 @@ WAIT_AFTER_STRSTNVM = 3.0
 SEQUENCE = [
     ("STRSTNVM",  WAIT_AFTER_STRSTNVM),
     ("STDI",                    BASE_WAIT_SEC),
-    ("STSDI STN2120r1.0",      BASE_WAIT_SEC),
+    ("STSDI STN2120 r1.0",      BASE_WAIT_SEC),
     ("STDI",                    BASE_WAIT_SEC),
-    ("STSDI STN2120r1.0",      BASE_WAIT_SEC),
+    ("STSDI STN2120 r1.0",      BASE_WAIT_SEC),
     ("STRSTNVM",  WAIT_AFTER_STRSTNVM)
 ]
 

@@ -1,5 +1,5 @@
 === SEQUENCE TEST ===
-Started: 2025-11-19 07:56:42
+Started: 2025-12-04 12:03:08
 PORT = COM8 @ Baud = 9600
 
 --- [0] STRSTNVM ---
