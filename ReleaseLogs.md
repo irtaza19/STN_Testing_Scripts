@@ -1,5 +1,9 @@
 # Releaselogs
 
+## v1.0.1
+### Added
+- 18 new scripts to calculate response delays and check Cariage return bahaviour with test logs(location: Extras/Response Timings and CR behaviour).
+
 ## v1.0.0
 ### Added
 - First release of the test scripts.

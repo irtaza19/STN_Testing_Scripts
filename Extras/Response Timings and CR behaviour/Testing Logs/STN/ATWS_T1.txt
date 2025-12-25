@@ -1,0 +1,17 @@
+=== ATWS T1 TIMING TEST ===
+Started: 2025-12-24 12:53:09
+PORT = COM8 @ Baud = 9600
+T1 definition: time from TX of ATWS<CR> to first RX <CR> (0x0D)
+
+TX: ATWS<CR>
+
+RX len = 5
+ATWS<CR>
+
+HEX:
+41 54 57 53 0D
+
+T1 RESULT:
+ATWS TX time (epoch): 1766577189.936146
+First RX <CR> at byte index: 4
+T1 (TX->first <CR>) = 0.011975 seconds
